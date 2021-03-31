@@ -7,7 +7,6 @@ const ColorContext = createContext({
     setSubcolor: () => {},
   },
 });
-
 const ColorProvider = ({ children }) => {
   const [color, setColor] = useState("black");
   const [subcolor, setSubcolor] = useState("red");

@@ -4,7 +4,6 @@ import ColorContext from "../contexts/color";
 const ColorBox = () => {
   const { state } = useContext(ColorContext);
   return (
-    // <ColorConsumer>
     <>
       <div
         style={{
@@ -21,7 +20,6 @@ const ColorBox = () => {
         }}
       ></div>
     </>
-    // </ColorConsumer>
   );
 };
 
